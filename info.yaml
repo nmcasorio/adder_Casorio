@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project: "RET Chip Design"
-  title:        "4 Bit Adder"
+  title:        "4_Bit_Adder"
   author:       "Nicholas Casorio"
   discord:      "djlayze" 
   description:  "A 4 bit adder"
