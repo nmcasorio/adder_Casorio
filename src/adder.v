@@ -1,4 +1,4 @@
-module threeadder (input a, b, c, d output v, w, x, y, z);
+module tt_um_threeadder (input a, b, c, d output v, w, x, y, z);
 
     assign v =  ~a&~b&~c&~d;
 
