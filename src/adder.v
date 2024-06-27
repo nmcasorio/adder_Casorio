@@ -1,7 +1,7 @@
 module adder (input a, b, c, d,
      output v, w, x, y, z);
 
-    assign v =  ~a&~b&~c&~d;
+    assign v =  ~a&~b&~c&~d ;
 
     assign w =  ~a&~b&~c&d | ~a&~b&c&~d | ~a&b&~c&~d | a&~b&~c&~d ;
 
