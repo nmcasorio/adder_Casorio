@@ -7,14 +7,14 @@ You can also include images in this folder and reference them in the markdown. E
 512 kb in size, and the combined size of all images must be less than 1 MB.
 -->
 
-## How it works
+## How it works |
 
-Explain how your project works
+Using the four inputs from the dipswitch the adder will show lights to represent 1 or 0 in up to three digit places, a separate light will illuminate to represent true 0 where none of the inputs are on.
 
-## How to test
+## How to test |
 
-Explain how to use your project
+Not sure how to word this yet!
 
-## External hardware
+## External hardware |
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+4 LED Lights
