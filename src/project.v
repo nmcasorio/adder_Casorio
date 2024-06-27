@@ -26,15 +26,15 @@ module tt_um_example (
     tt_um_adder top(
         .clk(clk),
         .reset(rst_n),
-        .a(ui_in[7:0]),
-        .b(ui_in[7:0]),
-        .c(ui_in[7:0]),
-        .d(ui_in[7:0]),
-        .v(uo_out[7:0]),
-        .w(uo_out[7:0]),
-        .x(uo_out[7:0]),
-        .y(uo_out[7:0]),
-        .z(uo_out[7:0])
+        .a(ui_in0),
+        .b(ui_in1),
+        .c(ui_in2),
+        .d(ui_in3),
+        .v(uo_out0),
+        .w(uo_out1),
+        .x(uo_out2),
+        .y(uo_out3),
+        .z(uo_out4)
     );
 
 endmodule
