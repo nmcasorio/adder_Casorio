@@ -1,11 +1,11 @@
 # Tiny Tapeout project information
 project: "RET Chip Design"
-  title:        "4 Bit Adder"      # Project title
-  author:       "Nicholas Casorio"      # Your name
-  discord:      "djlayze"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "A 4 bit adder"      # One line description of what your project does
-  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     100000       # Clock frequency in Hz (or 0 if not applicable)
+  title:        "4 Bit Adder"
+  author:       "Nicholas Casorio"
+  discord:      "djlayze" 
+  description:  "A 4 bit adder"
+  language:     "Verilog"
+  clock_hz:     100000
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
