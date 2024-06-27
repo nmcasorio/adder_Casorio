@@ -1,4 +1,4 @@
-module tt_um_adder (input a, b, c, d,
+module tt_um_adder (input clk, reset, a, b, c, d,
      output v, w, x, y, z);
 
     assign v =  ~a&~b&~c&~d ;
