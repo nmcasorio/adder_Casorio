@@ -1,5 +1,5 @@
 # Tiny Tapeout project information
-project:
+project: "RET Chip Design"
   title:        "4 Bit Adder"      # Project title
   author:       "Nicholas Casorio"      # Your name
   discord:      "djlayze"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
