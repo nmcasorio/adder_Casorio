@@ -9,7 +9,7 @@ module tt_um_adder (input clk,
                     output w(uo_out[1]), 
                     output x(uo_out[2]), 
                     output y(uo_out[3]), 
-                    output .z(uo_out[4]),
+                    output z(uo_out[4]),
                    );
 
     assign v =  ~a&~b&~c&~d ;
