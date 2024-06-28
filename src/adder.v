@@ -1,5 +1,5 @@
 module tt_um_adder (input clk, 
-                    input reset_n,
+                    input rst_n,
                     input ena,
                     input a, 
                     input b, 
