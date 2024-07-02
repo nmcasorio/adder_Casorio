@@ -41,7 +41,7 @@ module tt_um_example (
         .z(uo_out[4]),
         .i(uo_out[5]),
         .j(uo_out[6]),
-        .k(uo_out[7]),
+        .k(uo_out[7])
     );
 
 endmodule
