@@ -30,11 +30,18 @@ module tt_um_example (
         .b(ui_in[1]),
         .c(ui_in[2]),
         .d(ui_in[3]),
+        .e(ui_in[4]),
+        .f(ui_in[5]),
+        .g(ui_in[6]),
+        .h(ui_in[7]),
         .v(uo_out[0]),
         .w(uo_out[1]),
         .x(uo_out[2]),
         .y(uo_out[3]),
         .z(uo_out[4]),
+        .i(uo_out[5]),
+        .j(uo_out[6]),
+        .k(uo_out[7]),
     );
 
 endmodule
