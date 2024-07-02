@@ -17,8 +17,8 @@ module tt_um_example (
 );
 
   // All output pins must be assigned. If not used, assign to 0.
-  assign uio_out = 8'b0;
-  assign uio_oe  = 8'b0;
+  assign uio_out = 0;
+  assign uio_oe  = 0;
 
   // List all unused inputs to prevent warnings
     wire _unused = &{ena, clk, rst_n, 1'b0};
@@ -26,7 +26,6 @@ module tt_um_example (
     tt_um_adder top(
         .clk(clk),
         .reset(rst_n),
-        .ena(1'b0),
         .a(ui_in[0]),
         .b(ui_in[1]),
         .c(ui_in[2]),
