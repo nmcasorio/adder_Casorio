@@ -16,7 +16,7 @@ module tt_um_adder (input clk,
                     output z,
                     output i,
                     output j,
-                    output k,
+                    output k
                    );
 
     
@@ -35,6 +35,7 @@ module tt_um_adder (input clk,
     assign j = f ;
 
     assign k = g&h ;
-          ;
+
+  
 
 endmodule
