@@ -19,6 +19,7 @@ module tt_um_adder (input clk,
                     output k,
                    );
 
+    
     assign v =  ~a&~b&~c&~d ;
 
     assign w =  ~a&~b&~c&d | ~a&~b&c&~d | ~a&b&~c&~d | a&~b&~c&~d ;
@@ -28,6 +29,12 @@ module tt_um_adder (input clk,
     assign y =  ~a&b&c&d | a&~b&c&d | a&b&~c&d | a&b&c&~d ;
 
     assign z =  a&b&c&d 
+
+    assign i = e
+
+    assign j = f
+
+    assign k = g&h 
           ;
 
 endmodule
